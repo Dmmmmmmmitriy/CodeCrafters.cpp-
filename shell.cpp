@@ -9,7 +9,7 @@ int main() {
   string input;
   
   while (true) {
-    cout << "Stroke: "
+    cout << "Stroke: ";
 
      if (!getline(cin,input))
      if (cin.eof()) {
@@ -25,9 +25,9 @@ int main() {
     break;
   }
 
-  if (input.empty()) continue; 
+  if (input.empty()) {continue}; 
 
   cout << "You entered: " << input << "\n";
 
-  return 0;`
+  return 0;
 }
